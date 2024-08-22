@@ -18,7 +18,9 @@ last_modified_at: 2024-08-22
 
 ### ✏️ 내가 보려고 정리하는 마크다운 문법 
 마크다운(Markdown)은 일반 텍스트 기반의 경량 마크업 언어로, 일반 텍스트로 서식이 있는 문서를 작성하는 데 사용된다.
+
 그간 필요에 따라 구글링해가며 사용해 본 바로는, 환경에 따로 출력결과가 다소 상이한 것 같다는 단점 외에 비교적 문법이 쉽고 간단한 것이 특징적이다. 또 마크다운만으로 표현이 부족한 부분은 HTML 태그를 활용해 보완이 가능하다.
+
 때문에 이번 기회에 마크다운 기본 문법을 정리해보려고 한다. 
 
 <br>
@@ -32,7 +34,7 @@ last_modified_at: 2024-08-22
 ##### H5
 ###### Header6 
 ```
-`#` 개수가 커질수록 그만큼 낮은 수준의 소제목이 된다. 
+`#` 개수가 커질수록 그만큼 낮은 수준의 소제목이 된다. <br/>
 즉, __\### Header 3__ 이라면 아래와 같이 출력된다.
 
 >### Header 3
@@ -51,12 +53,12 @@ last_modified_at: 2024-08-22
 ```
 
 >큰 제목
-====================
+>====================
 >
 ><br>
 >
 >중간 제목
----------------------
+>---------------------
 
 ---
 
@@ -74,13 +76,13 @@ _italic_ or *이탤릭체*
 <span style="background-color:#ffe6e6">RGB코드 참조</span>
 ~~~
 
->__BOLD__ &nbsp&nbsp or &nbsp&nbsp **볼드체**
-_italic_ &nbsp&nbsp or &nbsp&nbsp *이탤릭체* 
-~~Strikethrough &nbsp 취소선~~
-<u>underline &nbsp 밑줄</u>
-<span style="color:red">글자색</span>
-<span style="background-color:yellow">하이라이트</span>
-<span style="background-color:#ffe6e6">RGB코드 참조</span>
+>__BOLD__&nbsp;&nbsp; or &nbsp;&nbsp;**볼드체** <br/>
+>_italic_&nbsp;&nbsp; or &nbsp;&nbsp;*이탤릭체*  <br/>
+>~~Strikethrough &nbsp;&nbsp; 취소선~~ <br/>
+><u>underline &nbsp;&nbsp; 밑줄</u> <br/>
+><span style="color:red">글자색</span> <br/>
+><span style="background-color:yellow">하이라이트</span> <br/>
+><span style="background-color:#ffe6e6">RGB코드 참조</span>
 
 ---
 <br/>
@@ -98,12 +100,12 @@ _italic_ &nbsp&nbsp or &nbsp&nbsp *이탤릭체*
 ```
 
 >1.  순번이 있는 목록일 경우
-	1. 하위 수준 목록표시 가능
-2.  순번의 경우
-	1. 동일 수준의 목차일 경우 
-    1. 실제 표기한 __숫자에 관계없이__ 순번이 매겨지는 것 같다.
-    	3. 탭(tab)키로도 적용 가능
-3.  출력 결과 확인!
+>	1. 하위 수준 목록표시 가능
+>2.  순번의 경우
+>	1. 동일 수준의 목차일 경우 
+>    1. 실제 표기한 __숫자에 관계없이__ 순번이 매겨지는 것 같다.
+>    <br/>~~3. 탭(tab)키로도 적용 가능 : 되는 곳이 있고 안되는 곳도 있고 하나봄~~
+>3.  출력 결과 확인!
 
 
 <br/>
@@ -121,14 +123,14 @@ _italic_ &nbsp&nbsp or &nbsp&nbsp *이탤릭체*
 ```
 
 >- 번호 없는 목록일 경우: -, *, + 기호 사용 
-- 하위 수준 목록표시
-    * 별표(asterisk) 
-    + 덧셈기호(plus sign)
-    - 하이픈(hyphen)
-    	- 실제 기호에 상관없이 동일 수준일 경우,
-       - 모두 동일하다
-    	\* 탭(tab)키를 적절히 사용해서 표현하는 것도 적용 가능
-- 출력 결과 확인!
+>- 하위 수준 목록표시
+>    * 별표(asterisk) 
+>    + 덧셈기호(plus sign)
+>    - 하이픈(hyphen)
+>    	- 실제 기호에 상관없이 동일 수준일 경우,
+>       - 모두 동일하다
+>    	\* 탭(tab)키를 적절히 사용해서 표현하는 것도 적용 가능
+>- 출력 결과 확인!
 
 
 <br/>
@@ -187,12 +189,13 @@ This is a second footnotes[^2]
  - 기본 코드블록 : 백틱(\`), 물결표(~), 공백, 탭 활용
 1. 백틱(\```) or 물결표(\~~~) 연속 3개
 이 때 코드블록 시작에 언어 이름까지 적어주면 예약어, 변수 등등에 하이라이팅이 들어가게 된다.
-\```java
-//코드블록 예시
-public class Main {
-    public static void main(String[] args) {
-       System. out.println("Hello World" );
-    }
+
+>\```java
+//코드블록 예시 <br/>
+public class Main { <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;public static void main(String[] args) { <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;System. out.println("Hello World" ); <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;} <br/>
 }\```
 
   ```java
@@ -204,20 +207,11 @@ public class Main {
   }
   ```
 
-2. `[ ][ ][ ][ ]` 4개 이상의 공백 
-또는 
-`[tab]` 한개 이상의 탭
+2. `[ ][ ][ ][ ]` 4개 이상의 공백 <br/>
+또는 <br/>
+`[tab]` 한개 이상의 탭 <br/>
  (\*cf. 이 경우, 들여쓰기 끝나는 지점까지가 코드블록에 해당한다.)
 
-    4개 이상의 공백
-    //코드블록 예시
-또는
-
-	한개 이상의 탭
-    //코드블록 예시
-
- 
-    
 - 인라인 코드 : 문장을 백틱(\`inline\`)으로 감싸서 적용할 수 있다. → `inline 예시` 
 
 ---
@@ -245,8 +239,8 @@ ___
     &nbsp&nbsp&nbsp&nbsp 결과확인 
 
  
->`&nbsp` 태그활용
-&nbsp&nbsp&nbsp&nbsp 결과확인 
+>`&nbsp` 태그활용 <br/>
+&nbsp;&nbsp;&nbsp;&nbsp; 결과확인 
 
 ---
 <br/>
@@ -257,19 +251,23 @@ ___
  - 3개 이상의 하이픈(-) → 헤더 구분, 콜론(:) → 정렬방향 설정
  - 가장 좌측/우측의 세로선(|)은 생략 가능
  - 줄바꿈이 필요한 경우 `<br>` 태그를 활용할 수 있다.
- ```왼쪽정렬(기본)|가운데정렬|오른쪽정렬|비고
+
+```
+왼쪽정렬(기본)|가운데정렬|오른쪽정렬|비고
 ---|:----:|----:|----
 왼쪽|가운데정렬|오른쪽정렬|줄바꿈테스트
 1|마크다운|Markdown|---										
 2|표 만들기|table test|줄바꿈이 필요한 경우,<br>`<br>` 태그를 활용할 수 있다.                            
 3|출력 결과 확인|test12341234|---
+```
+
 
 >왼쪽정렬(기본)|가운데정렬|오른쪽정렬|비고
----|:----:|----:|----
-왼쪽|가운데정렬|오른쪽정렬|줄바꿈테스트
-1|마크다운|Markdown|---										
-2|표 만들기|table test|줄바꿈이 필요한 경우,<br>`<br>` 태그를 활용할 수 있다.                            
-3|출력 결과 확인|test12341234|---
+>---|:----:|----:|----
+>왼쪽|가운데정렬|오른쪽정렬|줄바꿈테스트
+>1|마크다운|Markdown|---										
+>2|표 만들기|table test|줄바꿈이 필요한 경우,<br/>`<br>` 태그를 활용할 수 있다.                            
+>3|출력 결과 확인|test12341234|---
 
 ---
 <br/>
@@ -285,23 +283,25 @@ ___
 ```
     
 >__*적용 결과 확인*__
-1) [Google](https://google.com)
-2) [Naver](https://naver.com "네이버로 이동합니다")
-3) https://velog.io/ &nbsp&nbsp or	&nbsp&nbsp <https://velog.io/>
+>1) [Google](https://google.com)
+>2) [Naver](https://naver.com "네이버로 이동합니다")
+>3) https://velog.io/ &nbsp;&nbsp; or	&nbsp;&nbsp; <https://velog.io/>
 
+<br/>
 
 2. 참조링크 방법
 ```
 Link : [my_velog][velogLink]
 Link : [my_github][1]
-[velogLink]: https://velog.io/@92miindy/posts
+[velogLink]: https://velog.io/@92miindy/posts 
 [1]: https://github.com/mindyhere "go github" 	// "hint" 적용가능
 ```
->__*적용 결과 확인*__
-Link : [my_velog][velogLink]
-Link : [my_github][1]
-[velogLink]: https://velog.io/@92miindy/posts
-[1]: https://github.com/mindyhere "go github" 
+
+> __*적용 결과 확인*__ <br/>
+> Link : [my_velog][velogLink] <br/>
+> Link : [my_github][1] <br/>
+> [velogLink] : https://velog.io/@92miindy/posts <br/>
+> [1] : https://github.com/mindyhere "go github"  <br/>
 
 3. 문서 내부 링크
 목차를 대괄호 `[]`로 묶고 링크를 걸 페이지의 제목을 소괄호 안에 `(#제목)` 써주면 해당 라인으로 이동하게된다. → `[목차](#이동할-헤드-제목)`
@@ -362,6 +362,8 @@ __1. 내용접기/펼치기__
   hello :)
 </details>
 
+<br/>
+
 __2. 체크박스/Task List__
 ```
 - [x] This is Task Lists1
@@ -372,6 +374,8 @@ __2. 체크박스/Task List__
 - [x] This is Task Lists1
 - [ ] This is Task Lists2
 - [ ] This is Task Lists3
+
+<br/>
 
 __3. 이모지 단축키__
 - __window10__ : 윈도우 키 + 마침표(.)
