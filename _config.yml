@@ -100,14 +100,14 @@ analytics:
 author:
   name: "mindy" # 블로그 닉네임
   avatar: "/assets/images/meee.png" # 블로그 프로필 사진
-  bio              : "hello:)"
-  location         : "Seoul, Korea"
+  # bio              : "hello:)"
+  # location         : "Seoul, Korea"
   email            : "92miindy@gmail.com"
 
   links: # 사이트 링크
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:92miindy@gmail.com"
+    # - label: "Email"
+    #   icon: "fas fa-fw fa-envelope-square"
+    #   url: "mailto:92miindy@gmail.com"
 #     - label: "Website"
 #       icon: "fas fa-fw fa-link"
 #       # url: "https://your-website.com"
@@ -135,7 +135,7 @@ footer:
       # url:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/mindyhere/"
+      # url: "https://github.com/mindyhere/"
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
       # url:
