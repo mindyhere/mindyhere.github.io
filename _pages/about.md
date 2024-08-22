@@ -6,7 +6,7 @@ comments: false
 ---
 
 <div>
-    <img src="/assets/images/profile.png" alt="profile" width="100%" itemprop="image">
+    <img src="/assets/images/profile.png" alt="profile" width="60%" itemprop="image">
 </div>
 
 
