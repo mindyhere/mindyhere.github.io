@@ -5,7 +5,7 @@ excerpt: "우당탕탕~엉망진창 그 어딘가에 있는 코딩테스트 후�
 categories:
   - Studylog
 tags:
-  - [Markdown]
+  - [PS, Algorithm]
 
 permalink: /studylog/problem-solving-review/
 
