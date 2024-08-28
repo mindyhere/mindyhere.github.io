@@ -1,5 +1,5 @@
 ---
-title: "Problem Solving/코딩테스트 보기"
+title: "Problem Solving/코딩테스트 복기"
 excerpt: "우당탕탕~엉망진창 그 어딘가에 있는 코딩테스트 후기"
 
 categories:
