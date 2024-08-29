@@ -234,7 +234,7 @@ WHERE round(months_between(sysdate, hiredate)) >=100;
 
 *3. 종류*
 
-- 내부조인(inner join): 일반적인 형태. __WHERE 절__에 사용된 공통컬럼들이 동등연산자(=)에 의해 비교되는 조인(양쪽 테이블 모두에 데이터가 있는 경우만 출력됨)
+- 내부조인(inner join): 일반적인 형태. __WHERE 절__ 에 사용된 공통컬럼들이 동등연산자(=)에 의해 비교되는 조인(양쪽 테이블 모두에 데이터가 있는 경우만 출력됨)
 - self join: 참조해야 할 컬럼이 자신의 테이블에 있는 다른 컬럼인 경우에 사용하는 조인 
 - 외부(outer)조인: 한쪽 테이블에만 자료가 있을 경우에도 출력되도록 하려면 외부 조인을 해야 함
 
@@ -244,7 +244,7 @@ WHERE round(months_between(sysdate, hiredate)) >=100;
 - 내부조인: __FROM 절__에 컴머(,) 대신 __JOIN__ & WHERE 대신 __ON__ 사용
 - 외부조인<br/>
 데이터가 있는 테이블을 기준으로 left, right, full<br/>
-left, right outer join의 경우 __+ 기호__를 사용 → 데이터가 없는 테이블 쪽에 __+__
+left, right outer join의 경우 __+ 기호__ 를 사용 → 데이터가 없는 테이블 쪽에 __+__
   ```
   --left outer join
   SELECT sname, s.major, pname
@@ -275,9 +275,11 @@ left, right outer join의 경우 __+ 기호__를 사용 → 데이터가 없는 
   ```
 <br/>
 *cf. View(뷰, 가상테이블)
+
   ```
   CREATE OR REPLACE view 뷰이름
   AS  (sql 명령어) ;
+  ```
 
   ```
   (ex)
@@ -327,7 +329,7 @@ left, right outer join의 경우 __+ 기호__를 사용 → 데이터가 없는 
   ```
 
 <br/> 
-(Q4) emp테이블에 있는 empno, mgr을 이용하여 서로의 관계를 다음과 같이 출력하시오. “박종수의 매니저는 박성환이다” → __셀프조인(self join)__
+(Q4) emp테이블에 있는 empno, mgr을 이용하여 서로의 관계를 다음과 같이 출력하시오. “박종수의 매니저는 박성환이다” → <b>셀프조인(self join)</b>
 
   ```
   SELECT a.ename || '의 매니저는 ' || b.ename || '이다.' 	 -- A || B 결합, 연결

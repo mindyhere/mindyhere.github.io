@@ -93,7 +93,7 @@ last_modified_at: 2024-08-29
 
 ### __*5. 안드로이드 코드 작성 시 기본 사항*__
 
-1. __스트링__은 다국어 처리를 위해 정적인 텍스트보다는 strings.xml에 작성할 것을 권장
+1. __스트링__ 은 다국어 처리를 위해 정적인 텍스트보다는 strings.xml에 작성할 것을 권장
 ```
 @string/hello_world <br/> 
 → res/values/strings.xml 의 name이 hello_world인 태그

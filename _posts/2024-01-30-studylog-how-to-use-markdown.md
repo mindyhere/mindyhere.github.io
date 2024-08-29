@@ -17,6 +17,7 @@ last_modified_at: 2024-08-22
 ---
 
 ### ✏️ 내가 보려고 정리하는 마크다운 문법 
+
 마크다운(Markdown)은 일반 텍스트 기반의 경량 마크업 언어로, 일반 텍스트로 서식이 있는 문서를 작성하는 데 사용된다.
 
 그간 필요에 따라 구글링해가며 사용해 본 바로는, 환경에 따로 출력결과가 다소 상이한 것 같다는 단점 외에 비교적 문법이 쉽고 간단한 것이 특징적이다. 또 마크다운만으로 표현이 부족한 부분은 HTML 태그를 활용해 보완이 가능하다.
@@ -60,12 +61,11 @@ last_modified_at: 2024-08-22
 >중간 제목
 >---------------------
 
----
-
 <br/>
 <br/>
 
 ## 2. 폰트 스타일 적용
+
 ~~~
 __BOLD__ or **볼드체**
 _italic_ or *이탤릭체*
@@ -84,11 +84,12 @@ _italic_ or *이탤릭체*
 ><span style="background-color:yellow">하이라이트</span> <br/>
 ><span style="background-color:#ffe6e6">RGB코드 참조</span>
 
----
+
 <br/>
 <br/>
 
 ## 3. 목록
+
 ```
 1.  순번이 있는 목록일 경우
 	1. 하위 수준 목록표시 가능
@@ -153,16 +154,21 @@ BlockQuote
 nested blockquote
 >>> 출력 결과 확인
 
+<br/>
+
 __2. 첨자__
-- 위첨자 `<sup>` 태그 활용 
+
+- 위첨자 `<sup>` 태그 활용 <br/>
 	`<sup>위첨자</sup>텍스트 확인하기` → `<sup>` 태그를 활용한 <sup>위첨자</sup>텍스트 확인하기
-- 아래첨자 `<sub>` 태그 활용
+- 아래첨자 `<sub>` 태그 활용<br/>
 `<sub>아래첨자</sub>텍스트 확인하기` → `<sub>` 태그를 활용한 <sup>아래첨자</sup>텍스트 확인하기
 
+<br/>
 
 __3. 각주__
-`[^]`을 활용해 각주(footnote)를 적용할 수 있다.
-~~(벨로그에서는 제대로 렌더링 되지 않는 것 같지만)~~
+
+`[^]`을 활용해 각주(footnote)를 적용할 수 있다. ~~(벨로그나 깃허브에서는 지원하지 않는 것 같다)~~
+
 ```
 This is a general sentence. This is a first Footnotes[^1]
 This is a second footnotes[^2]
@@ -173,22 +179,16 @@ This is a second footnotes[^2]
 [^test]: 세번째 각주
 ```
 
-This is a general sentence. This is a first Footnotes[^1]
-This is a second footnotes[^2]
-각주 테스트[^test]
-
-[^1]: 첫번째 각주
-[^2]: 두번째 각주
-[^test]: 세번째 각주
-
----
 <br/>
 <br/>
 
 ## 5. 코드블록
+
  - 기본 코드블록 : 백틱(\`), 물결표(~), 공백, 탭 활용
-1. 백틱(\```) or 물결표(\~~~) 연속 3개
+1. 백틱(\```) or 물결표(\~~~) 연속 3개<br/>
 이 때 코드블록 시작에 언어 이름까지 적어주면 예약어, 변수 등등에 하이라이팅이 들어가게 된다.
+
+<br/>
 
 >\```java
 //코드블록 예시 <br/>
@@ -207,27 +207,29 @@ public class Main { <br/>
   }
   ```
 
+<br/>
+
 2. `[ ][ ][ ][ ]` 4개 이상의 공백 <br/>
 또는 <br/>
 `[tab]` 한개 이상의 탭 <br/>
  (\*cf. 이 경우, 들여쓰기 끝나는 지점까지가 코드블록에 해당한다.)
 
+<br/>
+
 - 인라인 코드 : 문장을 백틱(\`inline\`)으로 감싸서 적용할 수 있다. → `inline 예시` 
 
----
+
 <br/>
 <br/>
 
 ## 6. 문단구분 및 줄바꿈
+
 - 문단구분
+
 1. 수평선활용 : --- or ___ or *** or `<hr>` 태그
-
----
-___
-***
-<hr>
-
 2. 라인(line) 추가 : 구분하고자 하는 문단 사이에는 엔터키 2번으로 단락을 구분한다. 즉, 공백 두 줄(line)을 추가해 문단을 나눌 수 있다. 
+
+<br/>
 
 - 줄바꿈
 1) 연속 2개 이상의 공백+엔터
@@ -242,15 +244,18 @@ ___
 >`&nbsp` 태그활용 <br/>
 &nbsp;&nbsp;&nbsp;&nbsp; 결과확인 
 
----
+
 <br/>
 <br/>
 
 ## 7. 표(Table) 만들기
+
 \- (hyphen), | (Vertical bar), : (colon) 을 활용해 본문에 표를 넣을 수 있다.
  - 3개 이상의 하이픈(-) → 헤더 구분, 콜론(:) → 정렬방향 설정
  - 가장 좌측/우측의 세로선(|)은 생략 가능
  - 줄바꿈이 필요한 경우 `<br>` 태그를 활용할 수 있다.
+
+<br/>
 
 ```
 왼쪽정렬(기본)|가운데정렬|오른쪽정렬|비고
@@ -261,6 +266,7 @@ ___
 3|출력 결과 확인|test12341234|---
 ```
 
+<br/>
 
 >왼쪽정렬(기본)|가운데정렬|오른쪽정렬|비고
 >---|:----:|----:|----
@@ -269,13 +275,13 @@ ___
 >2|표 만들기|table test|줄바꿈이 필요한 경우,<br/>`<br>` 태그를 활용할 수 있다.                            
 >3|출력 결과 확인|test12341234|---
 
----
 <br/>
 <br/>
-
 
 ## 8. 링크
+
 1. 인라인 링크 : 기본적으로 외부주소를 괄호(`[]()`)로 감싸 링크를 적용할 수 있으며, 일반URL 또는 <> 안의 URL은 자동적으로 링크를 사용한다. 
+  
 ```
 1) [Google](https://google.com)
 2) [Naver](https://naver.com "네이버로 이동합니다")	// "hint" 적용가능
@@ -290,6 +296,7 @@ ___
 <br/>
 
 2. 참조링크 방법
+
 ```
 Link : [my_velog][velogLink]
 Link : [my_github][1]
@@ -303,8 +310,12 @@ Link : [my_github][1]
 > [velogLink] : https://velog.io/@92miindy/posts <br/>
 > [1] : https://github.com/mindyhere "go github"  <br/>
 
+<br/>
+
 3. 문서 내부 링크
+
 목차를 대괄호 `[]`로 묶고 링크를 걸 페이지의 제목을 소괄호 안에 `(#제목)` 써주면 해당 라인으로 이동하게된다. → `[목차](#이동할-헤드-제목)`
+
 ```
 (example)
 ## 📌목차
@@ -316,28 +327,31 @@ Link : [my_github][1]
    #### 📅 기간
    #### 👥 팀 구성 및 사용기술
 ```
-example : [readme][1]
-[1]: https://github.com/mindyhere/Team-Projects/tree/master/CafeManagement "Team-Projects/CafeManagement/"
+example : [readme](https://github.com/mindyhere/Team-Projects/tree/master/CafeManagement "Team-Projects/CafeManagement/")
 
 \*cf. 주의할 점
  - 띄어쓰기는 -(하이픈)으로 연결한다.
  - 영어는 소문자로 작성한다.
  - 괄호()나 이모지(::)는 제외하고 작성한다.
 
----
 <br/>
 <br/>
 
 ## 9. 이미지
+
 1. 이미지 삽입
+
 ```
 ![설명](파일경로)	
 ![설명](파일경로 "이미지 설명")
 ![example](https://images.immediate.co.uk/production/volatile/sites/10/2018/02/fe6d2c05-5ad9-4613-bc68-30e09d14634c-449be0c.jpg?quality=90&resize=940,627 "buttercup")
 ```    
 ![example](https://images.immediate.co.uk/production/volatile/sites/10/2018/02/fe6d2c05-5ad9-4613-bc68-30e09d14634c-449be0c.jpg?quality=90&resize=940,627 "buttercup")
-    
+
+<br/>
+
 2. 이미지 링크 : 마크다운 이미지코드를 링크코드(`[]()`) 묶어주면 된다.   
+
 ```
 [![설명](이미지링크)](URL "링크 설명")
 [![example](https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Markdown-mark.svg/175px-Markdown-mark.svg.png)](https://ko.wikipedia.org/wiki/%EB%A7%88%ED%81%AC%EB%8B%A4%EC%9A%B4 "Go wiki-markdown")
@@ -346,13 +360,13 @@ example : [readme][1]
 
 (\*cf. 이미지 크기, 정렬 등 세부적인 조절은 마크다운 문법으로는 해결이 어렵다. 따라서 html의 `<img>` 태그를 활용해야 한다.)
 
----
 <br/>
 <br/>
 
 ## 10. 기타 유용한 기능 추가정리
 
 __1. 내용접기/펼치기__
+
 ```
 <details><summary>CLICK</summary>
   hello :)
