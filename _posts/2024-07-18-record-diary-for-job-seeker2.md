@@ -3,11 +3,11 @@ title: "#취준일기_240718"
 excerpt: "생각 날 때마다 남기는 이런저런 기록. 240822 블로그 옮김"
 
 categories:
-  - Blog
+  - Daily Record
 tags:
   - [기술면접질문, TIL]
 
-permalink: /blog/diary-for-job-seeker2/
+permalink: /record/diary-for-job-seeker2/
 
 toc: true
 toc_sticky: true

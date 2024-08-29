@@ -3,11 +3,11 @@ title: "#취준일기_240703"
 excerpt: "생각 날 때마다 남기는 이런저런 기록. 240822 블로그 옮김"
 
 categories:
-  - Blog
+  - Daily Record
 tags:
   - [JavaScript, MyBatis, TIL]
 
-permalink: /blog/diary-for-job-seeker1/
+permalink: /record/diary-for-job-seeker1/
 
 toc: true
 toc_sticky: true

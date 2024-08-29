@@ -3,11 +3,11 @@ title: "#취준일기_240822"
 excerpt: "블로그 이사 중입니다. (드디어 내게도 깃허브 블로그가..!!)"
 
 categories:
-  - Blog
+  - Daily Record
 tags:
   - [GitHub, blog, memo]
 
-permalink: /blog/diary-moving-blog/
+permalink: /record/diary-moving-blog/
 
 toc: true
 toc_sticky: true

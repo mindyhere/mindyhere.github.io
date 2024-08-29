@@ -1,9 +1,9 @@
 ---
-title: "Blog"
+title: "Daily Record"
 layout: category
-permalink: /categories/blog/
+permalink: /categories/record/
 author_profile: true
-taxonomy: Blog
+taxonomy: Daily Record
 sidebar:
   nav: "categories"
 ---
