@@ -1,5 +1,5 @@
 ---
-title: "Studylog"
+title: "Study Log"
 layout: category
 permalink: /categories/studylog/
 author_profile: true

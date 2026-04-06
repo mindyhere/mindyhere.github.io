@@ -5,7 +5,7 @@ excerpt: "Gradle과 HTTP 통신 규약, Spring MVC의 핵심인 DispatcherServle
 categories:
   - Studylog
 tags:
-  - [GitHub, Git]
+  - [TIL, Spring]
 
 permalink: /studylog/til-day1-refactor-spring-mvc/
 
