@@ -27,17 +27,20 @@ comments: false
           </a>
         </li>
     </ul>
-  </div>
-<br/>
-<br/>
-레거시 Java 웹 프로젝트(JSP/Servlet)를 포함해 Spring Boot 웹 서비스 구현이 가능합니다. <br/>
-웹 서비스 동작에 대한 이해를 바탕으로 REST API 및 CRUD, 인증/인가, 검색 등의 기능 구현과 Open API를 활용한 개발과 AWS 배포 경험이 있습니다. <br/>
-새로운 것에 대한 두려움이 없고, 메타인지에 기반해 계획하고 탐구하는 것을 좋아합니다. <br/>
-<br/><br/>
+</div>
+
+### 🙋🏻‍♀️ About Me
+**"기술로 비즈니스의 연속성을 잇고, 사용자 중심의 가치를 설계하는 엔지니어 도경민입니다."**
+
+- 🚀 **Experience**: 약 1.5년의 실무 기간 동안 대민 서비스 고도화 프로젝트에 참여하며 백엔드 로직의 공통화와 시스템 확장성을 경험했습니다.
+- 🛠️ **Core Achievement**: DB 메타데이터 기반 동적 엔진 구축으로 반복 공수를 단축하여 사내 포상을 수혜했습니다.
+- 🎓 **Continuous Learning**: 실무의 감각을 이론으로 체계화하고자 **방송대 컴퓨터과학과**에서 CS 기초를 다지고 있습니다
+
+
+### 🧐 Skill Set
 
 Category|Skills set
 ---|--
-Back-End|<img src="https://img.shields.io/badge/Java-000000?style=flat-square&logoColor=white" /> <img src="https://img.shields.io/badge/Spring-6dd33f?style=flat-square&logoColor=white" /> <img src="https://img.shields.io/badge/SpringBoot-6dd33f?style=flat-square&logoColor=white" /> <img src="https://img.shields.io/badge/SpringSecurity-6dd33f?style=flat-square&logoColor=white" /> <img src="https://img.shields.io/badge/JSP/Servlet-d3d3d3?style=flat-square&logoColor=black" /> <img src="https://img.shields.io/badge/MyBatis-b61a20?style=flat-square&logoColor=white" /> <img src="https://img.shields.io/badge/JPA:Hibernate-59666C?style=flat-square&logoColor=white" /> <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logoColor=white" /> <img src="https://img.shields.io/badge/Django-092E20?style=flat-square&logoColor=white" /> <img src="https://img.shields.io/badge/AmazonEC2-FF9900?style=flat-square&logoColor=white" />
-Database | <img src="https://img.shields.io/badge/Oracle-f80000?style=flat-square&logoColor=white" /> <img src="https://img.shields.io/badge/MySQL-4479a1?style=flat-square&logoColor=white" /> <img src="https://img.shields.io/badge/MariaDB-003545?style=flat-square&logoColor=white" />
-Front-End | <img src="https://img.shields.io/badge/React-61dafb?style=flat-square&logoColor=black" /> <img src="https://img.shields.io/badge/JavaScript-f7df1e?style=flat-square&logoColor=black" /> <img src="https://img.shields.io/badge/JQuery-0769AD?style=flat-square&logoColor=black" /> <img src="https://img.shields.io/badge/Ajax-4e9ece?style=flat-square&logoColor=white" /> <img src="https://img.shields.io/badge/HTML/CSS-e34f26?style=flat-square&logoColor=white" />
-tools | <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=Git&logoColor=black" /> <img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white" /> <img src="https://img.shields.io/badge/SVN-809CC9?style=flat-square&logo=subversion&logoColor=white" /> <img src="https://img.shields.io/badge/DBeaver-836d5e?style=flat-square&logo=dbeaver&logoColor=black" /> <img src="https://img.shields.io/badge/IntelliJ-000000?style=flat-square&logo=intellijidea&logoColor=white" /> <img src="https://img.shields.io/badge/VSCode-007acc?style=flat-square&logo=visualstudiocode&logoColor=white" /> <img src="https://img.shields.io/badge/STS-6dd33f?style=flat-squar&logo=spring&logoColor=black" /> <img src="https://img.shields.io/badge/Eclipse-2c2255?style=flat-square&logo=eclipseide&logoColor=white" /> <img src="https://img.shields.io/badge/Android Studio-3DDC84?style=flat-square&logo=androidstudio&logoColor=black" /> <img src="https://img.shields.io/badge/Slack-4A154B?style=flat-square&logo=slack&logoColor=white" /> <img src="https://img.shields.io/badge/Notion-ffffff?style=flat-square&logo=notion&logoColor=black" />
+Back-End|<img src="https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white" /> <img src="https://img.shields.io/badge/spring-%236DB33F.svg?style=for-the-badge&logo=spring&logoColor=white" /> <img src="https://img.shields.io/badge/Spring%20Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white" /> <img src="https://img.shields.io/badge/MyBatis-b61a20?style=for-the-badge&logoColor=white" /> <img src="https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54" />
+Database | <img src="https://img.shields.io/badge/Oracle-F80000?style=for-the-badge&logo=oracle&logoColor=white" /> <img src="https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white" />
+Front-End | <img src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E" /> <img src="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB" />
