@@ -67,13 +67,6 @@ Spring Boot와 PostgreSQL을 하나의 인스턴스에 둘 것인가(Local Nativ
     }
     
     // ---- AreaService    
-    // 삭제되지 않은 데이터 조회
-    @Transactional(readOnly = true)
-    public Area findAreaById(UUID areaId) {
-        return areaRepository.findByIdAndDeletedAtIsNull(areaId)
-            .orElseThrow(() -> new CustomException(ErrorCode.AREA_NOT_FOUND));
-    }
-    
     // 유효한(삭제되지 않고 활성화된) 운영 지역 조회
     @Transactional(readOnly = true)
     public Area findActiveAreaById(UUID areaId) {
@@ -88,9 +81,6 @@ Spring Boot와 PostgreSQL을 하나의 인스턴스에 둘 것인가(Local Nativ
         Category category = categoryService.findCategoryById(requestDTO.getCategoryId());
         // Area 활성화여부 확인
         Area area = areaService.findActiveAreaById(requestDTO.getAreaId());
-
-        User owner = userRepository.findById(username)
-                .orElseThrow(() -> new CustomException(ErrorCode.UNAUTHORIZED_ACCESS));
         
         // 생략...
     }
