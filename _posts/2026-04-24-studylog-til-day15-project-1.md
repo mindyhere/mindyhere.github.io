@@ -34,18 +34,14 @@ Spring Boot와 PostgreSQL을 하나의 인스턴스에 둘 것인가(Local Nativ
   * RDS(Managed Service): 인스턴스 RAM은 아낄 수 있지만, 튜터님 의견으로는 경우에 따라 DNS 비용이 발생할 수 있다고 한다.  
   또 잠깐 찾아보니 프리티어 RDS 자체의 성능 한계와 네트워크 Latency가 발생할 수도 있다고... 👉🏻 EC2를 두개 놓는 것은 어떨까🤔? 
 
-[//]: # (<details>)
+<details>
+<summary>🎨 직접 그린 인프라 초기 설계도 (클릭하여 보기)</summary>
 
-[//]: # (<summary>🎨 직접 그린 인프라 초기 설계도 &#40;클릭하여 보기&#41;</summary>)
+<img src="/assets/images/posts_img/infra-sketch1.jpg" width="600" alt="[초기 설계도-RDS]">
+<br>
+<img src="/assets/images/posts_img/infra-sketch2.jpg" width="600" alt="[초기 설계도-Native]">
 
-[//]: # ()
-[//]: # (![초기 설계도-RDS]&#40;/assets/images/posts_img/infra-sketch1.jpg&#41;  )
-
-[//]: # ()
-[//]: # (![초기 설계도-Native]&#40;/assets/images/posts_img/infra-sketch1.jpg&#41;)
-
-[//]: # ()
-[//]: # (</details>)
+</details>
 
 * **결정 및 시각화** : 
   1. 현재는 학습단계이고 각자의 경험치가 너무 다르니 RDS에 대해 더 찾아보고 DNS로 인한 비용을 피할 수 없다면 EC2를 2개로 구축해서 각각 DB와 애플리케이션 서버를 두도록 시도해보리고 했다.
