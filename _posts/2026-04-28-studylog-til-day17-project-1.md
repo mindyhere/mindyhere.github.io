@@ -1,5 +1,5 @@
 ---
-title: "[내일배움캠프 TIL, Day 16] 프로젝트 막바지 : 요구사항 충족 여부 검토 및 배포 자동화"
+title: "[내일배움캠프 TIL, Day 17] 프로젝트 막바지 : 요구사항 충족 여부 검토 및 배포 자동화"
 excerpt: "JPA 더티 체킹을 활용한 캐싱 컬럼 업데이트 과정 정리 및 도커 기반 CI/CD 파이프라인의 원리 이해"
 
 categories:
@@ -13,7 +13,7 @@ toc: true
 toc_sticky: true
 
 date: 2026-04-28
-last_modified_at: 2026-04-28
+last_modified_at: 2026-05-01
 ---
 
 ## 1. 오늘 학습 키워드
