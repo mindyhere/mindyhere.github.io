@@ -73,7 +73,7 @@ public class OrderRepositoryImpl implements OrderRepository {
 
 - cf. 가이드 문서 참고
 
-```code
+```
 //요청 흐름
 HTTP Request Body
     ↓ (역직렬화)
@@ -141,7 +141,7 @@ API명세를 멸심히 작성했다고 생각했는데, 누락된 부분이 있�
 > 
 > **서비스 흐름:** Order Service → Hub Service → Delivery Service → Operations Service
 > 
-> ```code
+> ```
 > 1. 임시 주문    Order Service
 >                사용자가 p_order_drafts에 품목 담기
 >       ↓
