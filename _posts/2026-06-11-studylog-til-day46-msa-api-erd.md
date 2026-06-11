@@ -1,5 +1,5 @@
 ---
-title: "[내일배움캠프 TIL, Day 47] MSA SA 문서 설계 — 테이블 & API 명세"
+title: "[내일배움캠프 TIL, Day 46] MSA SA 문서 설계 — 테이블 & API 명세"
 excerpt: "기능명세서 기반으로 API명세 작성하기, ERD 설계"
 
 categories:
