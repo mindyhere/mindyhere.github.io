@@ -7,7 +7,7 @@ categories:
 tags:
   - [TIL, Project2, Monolithic, MSA, SAGA]
 
-permalink: /studylog/til-day39-project2-architecture-concept/
+permalink: /studylog/til-day43-project2-architecture-concept/
 
 toc: true
 toc_sticky: true
