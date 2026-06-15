@@ -7,7 +7,7 @@ categories:
 tags:
   - [TIL, SpringBatch, Redis, SortedSet]
 
-permalink: /studylog/til-daㅛ48-springbatch-redis-sortedset/
+permalink: /studylog/til-day48-springbatch-redis-sortedset/
 
 toc: true
 toc_sticky: true
